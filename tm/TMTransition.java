@@ -2,7 +2,7 @@ package tm;
 
 /**
  * Description: TMTransition stores where to go, what to write, and which way to move.
- * @author arjrao91219
+ * @author arjrao91219 & wreisig
  */
 public class TMTransition {
 
