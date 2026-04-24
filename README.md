@@ -26,7 +26,10 @@ TMTest.java - JUnit tests used to verify the program works as intended
 
 COMPILING AND RUNNING:
 
-To compile program on onyx: javac -cp .:/usr/share/java/junit.jar ./test/TMTest.java
+To compile program on onyx: javac tm/*.java
+
+To then run a given file: java tm.TMSimulator file0.txt
+(replace file0.txt with whichever file you want to test)
 
 To run TMTest: java -cp .:/usr/share/java/junit.jar:/usr/share/java/hamcrest/hamcrest.jar
 org.junit.runner.JUnitCore test.TMTest.
@@ -37,7 +40,7 @@ So the Turing Machine has a tape, and that tape has individual tape cells. These
 
 Testing:
 
-We tested the program using the command line for Junit tests. We also added more tests to cover more possible test cases to ensure our TM worked properly.
+We tested the program using the provided files. They ran and produced seemingly correct output.
 
 Discussion: 
 
