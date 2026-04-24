@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Description: TMState class has a name and its transitions.
- * @author arjrao91219
+ * @author arjrao91219 & wreisig
  */
 public class TMState {
 

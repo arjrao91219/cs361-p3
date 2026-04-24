@@ -2,7 +2,7 @@ package tm;
 
 /**
  * Description: TapeCell is one spot on the tape.
- * @author arjrao91219
+ * @author arjrao91219 & wreisig
  */
 public class TapeCell {
 
