@@ -21,7 +21,7 @@ TapeCell.java - File for each individual spot on the tape.
 
 Tape.java - Tracks symbols on the tape, and the head of the tape.
 
-TMTest.java - JUnit tests used to verify the program works as intended
+file0, file1, file5.txt - Input files to use for testing the program
 
 
 COMPILING AND RUNNING:
@@ -31,8 +31,6 @@ To compile program on onyx: javac tm/*.java
 To then run a given file: java tm.TMSimulator file0.txt
 (replace file0.txt with whichever file you want to test)
 
-To run TMTest: java -cp .:/usr/share/java/junit.jar:/usr/share/java/hamcrest/hamcrest.jar
-org.junit.runner.JUnitCore test.TMTest.
 
 PROGRAM DESIGN AND IMPORTANT CONCEPTS: 
 
